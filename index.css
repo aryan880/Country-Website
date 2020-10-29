@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+  overflow-x:hidden;
+}
+.heading{
+  background-image: url("./images/globe-2.jpg");
+  background-size: cover;
+  height: 800px;
+  opacity: 0.9;
+  text-align: center;
+}
+.title{
+  margin: 0;
+  text-align: center;
+  color: white;
+  letter-spacing: 16px;
+  font-size: 60px;
+  padding-top: 210px;
+}
+.total{
+  text-align: center;
+  color: white;
+  font-size: 21px;
+  letter-spacing: 3px;
+}
+.container{
+  flex-wrap: wrap;
+  background-color: lightgoldenrodyellow;
+  height: fit-content;
+  display: flex;
+  justify-content: left;
+}
+
+.eachCountry{
+  flex-grow: 0;
+  flex-basis: 5%;
+  font-size: 15px;
+  padding: 70px;
+  margin: 40px;
+  text-align: center;
+  background-image: url("./images/map_image.jpg");
+}
+
+.btn1{
+  border: none;
+  height: 55px;
+  padding: 20px;
+  margin: 10px;
+  background-color: blueviolet;
+  color: white  ;
+}
+.btn2{
+  border: none;
+  height: 55px;
+  padding: 20px;
+  margin: 10px;
+  background-color: blueviolet;
+  color: white  ;
+}
+
+.btn3{
+  color: white;
+  border:none;
+  margin: 10px;
+  height: 55px;
+  padding: 20px;
+  background-color: blueviolet;
+}
+.btn1:hover,.btn2:hover,.btn3:hover{
+  opacity: 80%;
+}
+#searchBar{
+  margin-top: 20px;
+  width:600px;
+  height: 45px; 
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+}
+
+.fas{
+  color: gray;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.stringColor{
+  color: red;
+}
+.numColor{
+  color: green;
+}
